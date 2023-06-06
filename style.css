@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    /* background-color: blueviolet; */
+    background-color: rgb(181, 180, 180);
+    height: 100vw;
+    width: 430px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+}
+.infoContainer{
+    /* background-color: rgb(38, 177, 177); */
+    height: 60vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+font-size: 35px;
+}
+.name{
+font-size: 50px;
+font-weight: bold;
+
+
+}
+.about{
+font-size: 25px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+    
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: steelblue;
+    font-size: 15px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: steelblue;
+}
+.devPic img{
+    width: 400px;
+    height: 60vh;
+    border-radius: 60%;
+}
+
+/* contact page */
+
+.contactform h1{
+    padding: 10px 0;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.contactform {
+    padding: 10px 40px;
+    /* padding-left: 20px; */
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.contactform form div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+#emailHelp{
+    font-size: 10px;
+    /* margin: 0 10px; */
+}
+#clientemail{
+    width: 16vw;
+    border-radius: 6px;
+    font-size: 15px;
+}
+#clientphone{
+    width: 16vw;
+    border-radius: 6px;
+    font-size: 15px;
+}
+/* .input1{
+    margin: 5000px 100px;
+} */
+#isclient{
+    width: fit-content;
+    
+}
+#checkbox{
+    flex-direction: row;
+}
+h1{
+    font-family: 'Work Sans', sans-serif;
+    padding: 20px 10px;
+    margin: 20px 0;
+}
+.blogitem{
+   margin: 20px;
+   padding: 10px;
+}
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    
+}
+.intro h2{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+}
+
+.intro p{
+    font-family: 'Open Sans', sans-serif;
+}
+.skillcontainer{
+    padding: 12px;
+
+}
+.skillitem{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.skill{
+    background-color: grey;
+    width: 300px;
+    height: 5px;
+}
+.hundred{
+    width: 300px;
+}
+.fifty{
+    width: 150px;
+}
+.seventyfive{
+    width: 225px;
+}
+@media only screen and (max-width: 700px) {
+    * {
+      /* background-color:lightblue; */
+    }
+    .sidebar{
+        transform: translate(-150px, 0px);
+        position: absolute;
+    }
+  }
